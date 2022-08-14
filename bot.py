@@ -10,6 +10,7 @@ from typing import Union
 
 # Discord
 import discord
+discord_token = 'NzM3NDE0NTYzMDgyOTI4MTM4.GnNvwv.ySWrws-TqEVdP1Vzlx58KMfYS-gzi1VbHx7PnA'
 
 # PyYaml
 import yaml
