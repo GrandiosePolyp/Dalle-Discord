@@ -10,7 +10,6 @@ from typing import Union
 
 # Discord
 import discord
-discord_token = 'NzM3NDE0NTYzMDgyOTI4MTM4.GnNvwv.ySWrws-TqEVdP1Vzlx58KMfYS-gzi1VbHx7PnA'
 
 # PyYaml
 import yaml
@@ -208,4 +207,4 @@ async def background_task() -> None:
 
 bot = DallEDiscordBot(command_prefix=c['bot_prefix'], self_bot=False)
 bot.loop.create_task(background_task())
-bot.run(c['discord_token'])
+bot.run(c['NzM3NDE0NTYzMDgyOTI4MTM4.GNK5XW.I1BuTsC55ogcWrblqj19Lk2MWYmeRRQmIzdOW8'])
